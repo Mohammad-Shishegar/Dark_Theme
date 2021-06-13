@@ -1,0 +1,327 @@
+@import "../color.scss";
+@font-face {
+  font-family: "IranSans";
+  src: url(../../assets/fonts/IRANSansMobile.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "IranSans";
+}
+
+// ======================
+//         flex size
+// ======================
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.size {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 168px) {
+}
+// ======================
+//         header
+// ======================
+.volvo-header {
+  .header-image {
+    background-image: url(../../assets/images/car-2.png);
+    height: 100vh;
+    filter: grayscale(100%) opacity(0.9);
+    flex-direction: column;
+    justify-content: unset;
+    padding-top: 60px;
+    color: $color-white;
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+      height: 70vh;
+    }
+    @media only screen and (max-width: 768px) {
+      height: 50vh;
+    }
+    h1 {
+      font-size: 8rem;
+      font-weight: bold;
+      letter-spacing: 10px;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 40px;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 35px;
+      }
+    }
+    p {
+      font-size: 25px;
+      color: $color-black;
+      @media only screen and (max-width: 768px) {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// ======================
+//         safe
+// ======================
+.volvo-safe {
+  margin-top: 20px;
+  .safe-image {
+    height: 400px;
+    background-color: transparent;
+    background-image: url(../../assets/images/car-1.png);
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+      height: 250px;
+    }
+    @media only screen and (max-width: 768px) {
+      height: 250px;
+    }
+  }
+  .safe-text {
+    margin-top: 40px;
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+      margin-top: 0;
+    }
+    h2 {
+      text-align: right;
+      font-size: 2.25rem;
+      font-weight: bold;
+      padding: 0 50px;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 20px;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 20px;
+      }
+    }
+    p {
+      text-align: right;
+      padding: 0 50px;
+      margin-top: 20px;
+      font-size: 16px;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        margin-top: 10px;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+// ======================
+//         work
+// ======================
+.volvo-work {
+  margin-top: 80px;
+  .text {
+    h2 {
+      font-size: 35px;
+      text-align: center;
+      font-weight: bold;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 25px;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 20px;
+      }
+    }
+    p {
+      font-size: 17px;
+      font-style: italic;
+      text-align: center;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 15px;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 12px;
+      }
+    }
+  }
+  .work-icon {
+    margin-top: 40px;
+    text-align: center;
+    .icon {
+      color: $color-blue;
+      width: 100px;
+      height: 100px;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        width: 80px;
+        height: 80px;
+      }
+      @media only screen and (max-width: 768px) {
+        height: 80px;
+        width: 80px;
+      }
+    }
+    p {
+      font-size: 18px;
+      padding: 0 30px;
+      margin-top: 10px;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 15px;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 13px;
+      }
+    }
+  }
+}
+// ======================
+//         provide
+// ======================
+.volvo-provide {
+  .text {
+    height: 400px;
+    padding: 0;
+    flex-direction: column;
+    span {
+      font-size: 30px;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 25px;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 20px;
+      }
+    }
+    p {
+      margin-top: 10px;
+      text-align: center;
+      font-style: italic;
+    }
+    a {
+      width: 150px;
+      height: 40px;
+      text-decoration: none;
+      border-radius: 5px;
+      border: 2px solid $color-blue;
+      color: $color-blue;
+      font-size: 16px;
+      &:hover {
+        border: 2px solid $color-black;
+        color: $color-black;
+      }
+    }
+  }
+  .image {
+    padding: 0;
+    height: 400px;
+    border-radius: 5px;
+    background-image: url(../../assets/images/car-3.png);
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+      height: 350px;
+    }
+  }
+}
+// ======================
+//         repair
+// ======================
+.volvo-repair {
+  margin-top: 20px;
+  .image {
+    height: 450px;
+    border-radius: 5px;
+    background-image: url(../../assets/images/repairman.png);
+  }
+  .text-1,
+  .text-2 {
+    height: 225px;
+    background-color: $color-black;
+    flex-direction: column;
+    color: $color-white;
+    font-size: 15px;
+    border-radius: 5px;
+    h3 {
+      font-size: 25px;
+      margin-top: 10px;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 20px;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      margin-top: 20px;
+    }
+    p {
+      font-size: 16px;
+      font-style: italic;
+      text-align: center;
+      padding: 0 30px;
+      margin-top: 10px;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 15px;
+      }
+    }
+  }
+  .text-2 {
+    background-color: $color-white;
+    color: $color-black;
+  }
+}
+// ======================
+//         car repair
+// ======================
+.volvo-car-repair {
+  margin-top: 20px;
+  background-color: $color-gray;
+  .text {
+    flex-direction: column;
+    height: 600px;
+    color: $color-white;
+    .icon {
+      width: 80px;
+      height: 80px;
+      color: $color-white;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        width: 60px;
+        height: 60px;
+      }
+      @media only screen and (max-width: 768px) {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    h2 {
+      font-size: 35px;
+      margin-top: 30px;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 20px;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 25px;
+      }
+    }
+    p {
+      margin-top: 20px;
+      font-size: 20px;
+      text-align: justify;
+      @media only screen and (min-width: 768px) and (max-width: 992px) {
+        font-size: 15px;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 15px;
+      }
+    }
+    a {
+      width: 150px;
+      height: 40px;
+      background-color: $color-white;
+      text-decoration: none;
+      color: $color-gray;
+      border-radius: 5px;
+      &:hover {
+        background-color: $color-gray;
+        color: $color-white;
+      }
+    }
+  }
+  .image {
+    height: 600px;
+    background-image: url(../../assets/images/pexels-andrea-piacquadio-3807277.jpg);
+    @media only screen and (max-width: 768px) {
+      margin-bottom: 20px;
+    }
+  }
+}
