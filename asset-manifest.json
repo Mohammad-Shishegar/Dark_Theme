@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Dark_Theme/static/css/main.e2dbc3db.chunk.css",
+    "main.js": "/Dark_Theme/static/js/main.021d72e3.chunk.js",
+    "main.js.map": "/Dark_Theme/static/js/main.021d72e3.chunk.js.map",
+    "runtime-main.js": "/Dark_Theme/static/js/runtime-main.7c3bed92.js",
+    "runtime-main.js.map": "/Dark_Theme/static/js/runtime-main.7c3bed92.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/Dark_Theme/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.427e06af.chunk.js": "/Dark_Theme/static/js/2.427e06af.chunk.js",
+    "static/js/2.427e06af.chunk.js.map": "/Dark_Theme/static/js/2.427e06af.chunk.js.map",
+    "static/js/3.5836eee2.chunk.js": "/Dark_Theme/static/js/3.5836eee2.chunk.js",
+    "static/js/3.5836eee2.chunk.js.map": "/Dark_Theme/static/js/3.5836eee2.chunk.js.map",
+    "index.html": "/Dark_Theme/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/Dark_Theme/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.e2dbc3db.chunk.css.map": "/Dark_Theme/static/css/main.e2dbc3db.chunk.css.map",
+    "static/js/2.427e06af.chunk.js.LICENSE.txt": "/Dark_Theme/static/js/2.427e06af.chunk.js.LICENSE.txt",
+    "static/media/VolvoStyle.scss": "/Dark_Theme/static/media/repairman.a1ca717d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c3bed92.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.427e06af.chunk.js",
+    "static/css/main.e2dbc3db.chunk.css",
+    "static/js/main.021d72e3.chunk.js"
+  ]
+}
