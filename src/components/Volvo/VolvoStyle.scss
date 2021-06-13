@@ -25,8 +25,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media only screen and (max-width: 168px) {
-}
+
 // ======================
 //         header
 // ======================
@@ -45,6 +44,9 @@ body {
     @media only screen and (max-width: 768px) {
       height: 50vh;
     }
+    @media only screen and (max-width: 425px) {
+      height: 35vh;
+    }
     h1 {
       font-size: 8rem;
       font-weight: bold;
@@ -58,7 +60,7 @@ body {
     }
     p {
       font-size: 25px;
-      color: $color-black;
+      color: $color-white;
       @media only screen and (max-width: 768px) {
         font-size: 20px;
       }
@@ -79,6 +81,9 @@ body {
     }
     @media only screen and (max-width: 768px) {
       height: 250px;
+    }
+    @media only screen and (max-width: 425px) {
+      height: 200px;
     }
   }
   .safe-text {
@@ -214,6 +219,9 @@ body {
     @media only screen and (min-width: 768px) and (max-width: 992px) {
       height: 350px;
     }
+    @media only screen and (max-width: 425px) {
+      height: 280px;
+    }
   }
 }
 // ======================
@@ -225,6 +233,9 @@ body {
     height: 450px;
     border-radius: 5px;
     background-image: url(../../assets/images/repairman.png);
+    @media only screen and (max-width: 425px) {
+      height: 380px;
+    }
   }
   .text-1,
   .text-2 {
@@ -322,6 +333,9 @@ body {
     background-image: url(../../assets/images/pexels-andrea-piacquadio-3807277.jpg);
     @media only screen and (max-width: 768px) {
       margin-bottom: 20px;
+    }
+    @media only screen and (max-width: 425px) {
+      height: 450px;
     }
   }
 }
